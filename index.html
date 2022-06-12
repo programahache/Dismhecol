@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Dismhecol</title>
+</head>
+
+<body>
+    <div class="barra">
+        <div class="contenedor">
+            <div class="navegacion flex">
+
+                <div class="contenedor-logo">
+                    <div class="menu-movil">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="index.html">
+                        <img src="img/LOGO2.png" alt="Logo empresa" width="150px">
+                    </a>
+                </div>
+
+                <div class="contedor-buscar">
+                    <input id="buscar" type="text" placeholder="Busca productos" class="buscar">
+                    <label for="buscar"><i class="fa-solid fa-magnifying-glass"></i></label>
+                </div>
+
+
+                <nav class="contenedor-nav">
+                    <div class="menu-elm">
+                        <a href=""> <i class="fa-solid fa-user"> </i> <span> Iniciar sesion </span> </a>
+                    </div>
+                    <div class="menu-elm">
+                        <a href=""> <i class="fa-solid fa-basket-shopping"></i> <span> Mis productos </span> </a>
+                    </div>
+                    <div class="menu-elm">
+                        <a href=""> <i class="fa-solid fa-basket-shopping"></i> <span> Mis compras </span> </a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--FINALIZA BARRA DE NAVEGACION-->
+
+    <section class="hero bg">
+        <div class="contenedor contenedor-hero">
+            <div class="hero-info">
+                <h1>lorem ipsum sit amet</h1>
+                <p>Dismhecol S.A.S es una empresa de calidad y orgullo netamente NARIÑENSE que inicio sus labores en la
+                    cidad de San Juan Pasto el 20 de febero de 2012, que se viene consolidando en el tiempo como una
+                    fuente importante de trabajo y desarrollo para nuestro departamento. </p>
+                <button class="boton-hero">TEXTO</button>
+            </div>
+
+        </div>
+
+        <div class="puntos-slider">
+            <p style="font-size: 4em; ">....</p>
+            <!--USE ESTO PARA SIMULAR EL INDICADOR DE UN CARRUSEL DE IMAGEN -->
+        </div>
+    </section>
+
+
+    <section class="subm">
+        <div class="fondo">
+            <div class="submenu contenedor flex ">
+                <div class="submenu-elm">
+                    <i class="fa-solid fa-prescription-bottle-medical"></i>
+                    <p>Medicamentos</p>
+                </div>
+                <div class="submenu-elm">
+                    <i class="fa-solid fa-laptop-medical"></i>
+                    <p>Dispositivos medicos</p>
+                </div>
+                <div class="submenu-elm">
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <p>equipos menores</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="productos">
+        <h2>productos destacados</h2>
+
+        <div class="contenedor cont-productos">
+
+            <div class="contenedor-productos ">
+
+                <div class="producto">
+                    <div class="im">
+                        <img src="/img/pngwing.com.png" alt="productos" width="165px">
+                    </div>
+                    <h2>Lorem ipsum sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati expedita quasi, eveniet aut
+                        vel
+                        .</p>
+                    <button>Ver mas</button>
+                </div>
+
+                <div class="producto">
+                    <div class="im">
+                        <img src="/img/pngwing.com.png" alt="productos" width="165px">
+                    </div>
+                    <h2>Lorem ipsum sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati expedita quasi, eveniet aut
+                        vel
+                        .</p>
+                    <button>Ver mas</button>
+                </div>
+
+                <div class="producto">
+                    <div class="im">
+                        <img src="/img/pngwing.com.png" alt="productos" width="165px">
+                    </div>
+                    <h2>Lorem ipsum sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati expedita quasi, eveniet aut
+                        vel
+                        .</p>
+                    <button>Ver mas</button>
+                </div>
+
+                <div class="producto">
+                    <div class="im">
+                        <img src="/img/pngwing.com.png" alt="productos" width="165px">
+                    </div>
+                    <h2>Lorem ipsum sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati expedita quasi, eveniet aut
+                        vel
+                        .</p>
+                    <button>Ver mas</button>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="izquierda">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="derecha">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+
+    </section>
+
+    <section class="galeria ">
+
+        <div class="galeria-glo contenedor">
+
+            <div class="contenedor-imagenes">
+                <div class="ig">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h3>@dismhecol</h3>
+                </div>
+
+                <div class="imagenes-cont flex">
+
+                    <div class="imagen-elm">
+                        <img src="/img/M01.png" width="200px" alt="imagenes de nuestros servicios">
+                    </div>
+                    <div class="imagen-elm">
+                        <img src="/img/M02.png" width="200px" alt="imagenes de nuestros servicios">
+                    </div>
+                    <div class="imagen-elm">
+                        <img src="/img/M03.png" width="200px" alt="imagenes de nuestros servicios">
+                    </div>
+                    <div class="imagen-elm">
+                        <img src="/img/M04.png" width="200px" alt="imagenes de nuestros servicios">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="izquierda">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="derecha">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+    </section>
+
+    <section class="mapa">
+
+        <div class="barra">
+            <h3>ubicación</h3>
+
+        </div>
+
+        <div class="map" id="map">
+
+        </div>
+
+
+
+
+    </section>
+
+    <section class="pagos contenedor">
+        <div class="contenedor">
+            <h3>Metodos de pago</h3>
+            <div class="contenedor-metodos">
+                <div class="metodos">
+                    <img src="/img/pngwing.com (3).png" width="115px" alt="Visa">
+                </div>
+                <div class="metodos">
+                    <img src="/img/pngwing.com (2).png" width="115px" alt="Mastercard">
+                </div>
+                <div class="metodos">
+                    <img src="/img/pngwing.com (4).png" width="115px" alt="American Express">
+                </div>
+                <div class="metodos">
+                    <img src="/img/descarga.png" width="115px" alt="Efecty">
+                </div>
+
+                <div class="metodos">
+                    <img src="/img/brand-pse.png" width="115px" alt="PSE">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="newsletter">
+
+        <div class="contenedor">
+            <hr color="red" size="1px" width="95%">
+            <div class="contenido-news contenedor">
+                <div class="titulo">
+                    <h2>¡suscríbete a <br> nuestro newsletter</h2>
+                </div>
+                <div>
+                    <input type="text" class="correo">
+
+                    <div class="check">
+                        <div class="div-checkbox">
+                            <input type="checkbox" name="acepto" id="acepto">
+
+                        </div>
+                        <div class="declaro">
+                            <label for="acepto">Declaro que he leido autirizo el uso de mis datos personales de acuerco
+                                a la <br> Autorizacion y
+                                acepto terminos y condiciones</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="contenedor">
+
+            <div class="contenido-footer contenedor">
+
+                <div class="logo">
+                    <a href="index.html"> 
+                    <img src="/img/d.png" alt="letra D" width="130px">
+                </a>
+                </div>
+
+                <div class="informacion">
+
+                    <div class="mas-info">
+                        <h3>acerca de dismhecol</h3>
+                        <nav>
+                            <a href="">¿Quienes somos?</a>
+                            <a href="">Cotizaciones</a>
+                            <a href="">Catalogo</a>
+                            <a href="">Iniciar sesión</a>
+                        </nav>
+                    </div>
+
+                    <div class="mas-info">
+                        <h3>Servicio al cliente</h3>
+                        <nav>
+                            <a href="">Preguntas Frecuentes</a>
+                            <a href="">Politica de Tratamiento de Datos</a>
+                            <a href="">Terminos y Condiciones</a>
+                            <a href="">Politicas</a>
+                        </nav>
+                    </div>
+
+                    <div class="redes">
+                        <h3>Síguenos</h3>
+                        <nav>
+                            <a href=""> <i class="fa-brands fa-instagram"></i> </a>
+                            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                            <a href=""> <i class="fa-brands fa-youtube"></i></a>
+                        </nav>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="contenedor fin-footer">
+                <hr size="1px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo dolore reiciendis
+                    provident ducimus illum, assumenda, voluptate quia, enim sed ut minima doloremque. Blanditiis,
+                    accusamus. Alias iusto nam non expedita?</p>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,487 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+/*Navegacion*/
+
+.barra {
+    background-color: red;
+    width: 100%;
+}
+
+
+.navegacion {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenedor-nav {
+    display: inline-flex;
+    padding: 8px;
+
+}
+
+.menu-elm {
+    border-right: 0.5px solid white;
+}
+
+.menu-elm a i {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.menu-elm a span {
+    font-size: 13px;
+    font-weight: lighter;
+
+}
+
+.menu-elm a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.menu-elm:last-of-type {
+    border: none;
+}
+
+.menu-movil {
+    width: 50px;
+    display: block;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.menu-movil span {
+    height: 5px;
+    margin-bottom: 6px;
+    background-color: white;
+    display: block;
+}
+
+.contenedor {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.contenedor-logo {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.contedor-buscar {
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.contedor-buscar i {
+    color: red;
+    margin-right: 3px;
+    padding: 2px;
+    font-size: 19px;
+}
+
+
+.buscar {
+    border: none;
+    width: 350px;
+}
+
+.buscar::placeholder {
+    font-size: 12px;
+}
+
+/*HERO*/
+
+
+.bg {
+    background-image: url(../img/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+
+.hero {
+    display: inline-flex;
+}
+
+.hero-info {
+    display: block;
+    width: 30%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor-hero {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.hero-info h1 {
+    font-size: 50px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #434343;
+}
+
+.hero-info p {
+    margin-top: 10px;
+    color: #3C3C3C;
+    font-size: 14px;
+}
+
+.boton-hero {
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-hero:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: red;
+}
+
+.puntos-slider {
+    position: absolute;
+    margin: 350px 50%;
+
+}
+
+/*SUB MENU*/
+.subm {
+    height: auto;
+}
+
+.submenu {
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fondo {
+    background-color: #3C3C3C;
+}
+
+.submenu-elm {
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+
+.submenu-elm i,
+.submenu-elm p {
+    margin: 20px 0 0 0;
+}
+
+
+
+.submenu-elm p {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.fa-prescription-bottle-medical,
+.fa-laptop-medical,
+.fa-stethoscope {
+    font-size: 60px;
+}
+
+/*PRODUCTOS*/
+
+.productos {
+    position: relative;
+}
+
+.productos h2:first-child {
+    text-align: center;
+    text-transform: uppercase;
+    color: #434343;
+    font-size: 26px;
+    margin: 65px 0;
+}
+
+.cont-productos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-productos {
+    display: flex;
+    gap: 10px;
+
+}
+
+.producto {
+    background-color: #F4F4F4;
+    padding: 25px;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 250px;
+}
+
+
+.im {
+    margin: -50px 0 0 0;
+}
+
+
+
+.producto h2 {
+    margin: 0;
+}
+
+
+
+
+.izquierda,
+.derecha {
+    position: absolute;
+    height: auto;
+    top: 50%;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.derecha {
+    left: 1;
+    right: 0px;
+
+}
+
+/*GALERIA DE IMAGENES*/
+
+
+
+.galeria {
+    position: relative;
+    background-color: #F4F4F4;
+    margin-top: 60px;
+}
+
+.galeria-glo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.imagenes-cont {
+    display: flex;
+    gap: 20px;
+}
+
+.imagen-elm img {
+    transition: all .5s ease-in-out;
+}
+
+.imagen-elm img:hover {
+    transform: scale(1.1);
+}
+
+
+.ig {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ig h3 {
+    font-size: 30px;
+}
+
+.fa-instagram, .fa-facebook, .fa-youtube {
+    font-size: 40px;
+
+}
+
+/*MAPA*/
+
+.mapa {
+    margin-top: 30px;
+}
+
+.mapa .barra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+}
+
+.mapa .barra h3 {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.map {
+    height: 300px;
+    background-color: green;
+}
+
+/*PASARELA DE PAGOS*/
+
+.pagos h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #434343;
+    font-size: 26px;
+
+
+}
+
+.contenedor-metodos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*NEWSLETTER*/
+
+.contenido-news {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.correo {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid red;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 23px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contenido-news label {
+    text-align: justify;
+}
+
+.check {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #434343;
+    color: white;
+    height: 100%;
+}
+
+footer h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 30px 0 10px;
+}
+
+
+.contenido-footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.informacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.mas-info{
+    padding: 10px;
+}
+
+.mas-info nav {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.mas-info a {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    
+}
+
+.mas-info a:hover{
+    color: red;
+}
+
+.redes nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.redes nav a{
+    color: white;
+   
+   
+}
+
+.fin-footer{
+   
+}
