@@ -1,0 +1,101 @@
+@media (max-width:769px) {
+    .buscar {
+        display: none;
+
+    }
+
+    .menu-movil {
+        margin-right: 50px;
+    }
+
+    .contedor-buscar {
+        text-align: center;
+        border-radius: 100%;
+    }
+
+    .contenedor-nav {
+        display: none;
+    }
+
+    .navegacion {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bg {
+        background-image: url(../img/image.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: auto;
+        height: 100%;
+        margin: 0;
+
+    }
+
+    .contenedor-hero {
+        margin: 0;
+    }
+
+    .puntos-slider {
+        display: none;
+    }
+
+    .hero-info {
+        width: auto;
+        padding: 15px;
+
+    }
+
+    .submenu {
+        display: block;
+    }
+
+
+    .contenedor-productos {
+        display: block;
+    }
+
+    .producto:nth-child(2),
+    .producto:nth-child(3),
+    .producto:nth-child(4) {
+        display: none;
+    }
+
+    .imagen-elm:nth-child(1),
+    .imagen-elm:nth-child(3),
+    .imagen-elm:nth-child(4) {
+        display: none;
+    }
+
+    .contenedor-metodos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .metodos{
+        margin-top: 20px;
+    }
+
+    .contenido-news{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contenido-footer,.informacion{
+        display: block;
+    }
+
+    .contenido-footer{
+        margin-top: 10px;
+    }
+
+    .redes nav a{
+        margin-left: 20px;
+    }
+    .redes nav a:first-of-type{
+        margin-left: 0;
+    }
+
+}
