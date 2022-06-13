@@ -98,4 +98,17 @@
         margin-left: 0;
     }
 
+
+    .grid{
+       display: grid;
+       grid-template-columns: repeat(1);
+       gap: 20px;
+       align-items: center
+    
+    }
+   
+    .tarjeta{
+        width: auto;
+        align-items: center;
+    }
 }
